@@ -581,9 +581,9 @@ body:after {
   .sticky-wrapper .site-navbar .site-logo a {
     color: #fff; }
   .sticky-wrapper .site-navbar .site-menu > li > a {
-    color: rgba(255, 255, 255, 0.7) !important; }
+    color:white !important; }
     .sticky-wrapper .site-navbar .site-menu > li > a:hover, .sticky-wrapper .site-navbar .site-menu > li > a.active {
-      color: #fff !important; }
+      color: #00bdff !important; }
   .sticky-wrapper.is-sticky .site-navbar {
     background: #fff;
     border-bottom: 1px solid transparent;
@@ -614,7 +614,7 @@ body:after {
       z-index: 1;
       content: "";
       position: absolute;
-      background: rgba(0, 0, 0, 0.2); }
+      background: rgb(0 0 0 / 50%);}
   .slide-item > .container, .cover > .container {
     position: relative;
     z-index: 2; }
